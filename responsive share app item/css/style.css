@@ -1,0 +1,213 @@
+
+body{
+	background:#EF4260;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;  
+  max-width:400px;
+  background:#EF4260;
+  padding:20px;
+ 
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  min-width: 100%;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  border:none;
+}
+
+.img-responsive-logo {
+  display: block;
+  max-width: 20%;
+  min-width: 20%;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  border:none;
+  padding-top: 20px;
+
+}
+
+@media screen and (max-width: 600px) {
+    .fonte-preco{
+      font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+      font-size: 50px;	
+      padding-top:20px;
+      padding-bottom:20px;
+      text-align:center;    
+      font-weight: bolder;
+    }
+
+     .fonte-preco-moeda{
+      font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+      font-size: 15px;  
+      padding-top:20px;
+      padding-bottom:20px;
+      text-align:center;
+      font-weight: bolder;
+    }
+
+  .nome-loja{
+   font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+  text-align:center;
+  font-size: 30px;
+  color:#EF4260;  
+  font-weight: bolder;
+  }
+
+
+    .fonte-fone{
+      font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+      font-size: 17px;  
+      padding-bottom:10px;
+      text-align:center;      
+      font-weight: bolder;
+
+    }
+
+
+    .end-loja{    
+      text-align:center;
+      font-size: 12px;  
+      padding-left: 5px;    
+      padding-right: 5px; 
+      padding-bottom:20px;       
+  }
+
+  .icones{
+  font-size: 10px;  
+  }
+
+}
+
+@media screen and (min-width: 601px) {
+
+    .fonte-preco{
+     font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+      font-size: 60px;
+      text-align:center;
+      padding-top:20px;
+      padding-bottom:20px;     
+      font-weight: bolder;
+    }
+
+      .nome-loja{
+       font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+        text-align:center;
+        font-size: 40px;
+        color:#EF4260;        
+        font-weight: bolder;
+      }
+
+       .fonte-preco-moeda{
+      font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+      font-size: 20px;  
+      padding-top:20px;
+      padding-bottom:20px;
+      text-align:center;      
+      font-weight: bolder;
+    }
+
+    .fonte-fone{
+      font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+      font-size: 21px;  
+      padding-bottom:10px;
+      text-align:center;      
+      font-weight: bolder;
+
+    }
+
+        .end-loja{    
+      text-align:center;
+      font-size: 14px;  
+      padding-left: 5px;    
+      padding-right: 5px; 
+      padding-bottom:20px;   
+  }
+
+  .icones{
+  font-size: 15px;  
+  }
+}
+
+
+.imagem-topo{
+	border:none;
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;   
+}
+
+.preco{
+
+  max-width: 100%; 
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+background: #E6E7E9;
+   
+}
+
+.info{
+	background:gray;
+	border:none;
+}
+
+.logo-loja{
+  background: #E6E7E9;
+  padding-top: 10px;
+}
+
+.fone{
+  background: #E6E7E9;
+  padding-top: 10px;
+}
+
+
+  .texto-cinza{
+    color:#A8A9AD;
+  }
+
+.texto-cinza-escuro{
+    color:#949599;
+  }
+  
+
+  .texto-rosa{
+    color:#EF4260;
+  }
+
+  .texto-cortado{
+      color: red;
+  }
+
+.sombra-caixa{
+  -webkit-box-shadow: 0px 9px 10px -8px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 9px 10px -8px rgba(0,0,0,0.75);
+  box-shadow: 0px 9px 10px -8px rgba(0,0,0,0.75);
+  z-index: 10;
+  background-color: #FFFFFF;
+  }
+
+.arredondado{
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+}
+
+
+
+.transparente-aux{
+  border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+  background-color: #FFFFFF;
+  z-index: 9;
+}
+

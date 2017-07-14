@@ -1,0 +1,22 @@
+# Turn rewrite engine on
+Options +FollowSymlinks
+RewriteEngine on
+
+# map neat URL to internal URL
+RewriteRule ^consulta/totalinativos/$   AtividadeController.php?view=totalInativos [nc,qsa]
+RewriteRule ^consulta/totalapp/$   AtividadeController.php?view=total [nc,qsa]
+RewriteRule ^consulta/getlista/$   AtividadeController.php?view=lista [nc,qsa]
+RewriteRule ^consulta/getlistalojista/$   AtividadeController.php?view=listaLojista [nc,qsa]
+RewriteRule ^consulta/getlistalojistabairro/$   AtividadeController.php?view=listaLojistaBairro [nc,qsa]
+RewriteRule ^consulta/totalapplojistas/$   AtividadeController.php?view=totalLojistas [nc,qsa]
+RewriteRule ^consulta/totallojistasinativos/$   AtividadeController.php?view=totalLojistasInativos [nc,qsa]
+RewriteRule ^consulta/totalinativoscritico/$   AtividadeController.php?view=totalInativosCritico [nc,qsa]
+RewriteRule ^consulta/totallojistainativoscritico/$   AtividadeController.php?view=totalInativosLojistaCritico [nc,qsa]
+RewriteRule ^consulta/getlistausuariosemail/$   AtividadeController.php?view=listaEmails [nc,qsa]
+RewriteRule ^consulta/total/$   NotificacaoController.php?view=total [nc,qsa]
+RewriteRule ^consulta/lista/$   NotificacaoController.php?view=all [nc,qsa]
+RewriteRule ^consulta/getusuariosativosemail/$   AtividadeController.php?view=listaUsuariosAtivosEmails [nc,qsa]
+RewriteRule ^consulta/getusuariosinativosemail/$   AtividadeController.php?view=listaUsuariosInativosEmails [nc,qsa]
+
+
+

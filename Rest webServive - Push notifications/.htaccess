@@ -1,0 +1,7 @@
+# Turn rewrite engine on
+Options +FollowSymlinks
+RewriteEngine on
+
+# map neat URL to internal URL
+RewriteRule ^consulta/total/$   NotificacaoController.php?view=total [nc,qsa]
+RewriteRule ^consulta/lista/$   NotificacaoController.php?view=all [nc,qsa]

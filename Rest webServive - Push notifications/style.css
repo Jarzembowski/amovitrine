@@ -1,0 +1,129 @@
+
+body{
+	background:#FFFFFF;	
+}
+
+.container {					
+		max-width:300px;
+    margin-right: auto;
+    margin-left: auto;              
+	}
+
+  .fonte-titulo{
+  font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;
+      font-size: 20px;             
+      font-weight: bolder;      
+  }
+
+    .fonte-subtitulo{
+     font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;
+      font-size: 11px;             
+
+  }
+
+  .fonte-total-ativado{
+   font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;
+      font-size: 45px;             
+       font-weight: bold;   
+       color: #EF4260; 
+       line-height: 30px;   
+  }
+
+  .fonte-total-label{
+   font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;
+      font-size: 20px;             
+       font-weight: bold;   
+       color: #a5a5a5; 
+       line-height: 30px;   
+  }
+
+
+  .fonte-total-desativado{
+    font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;
+      font-size: 45px;             
+       font-weight: bold;   
+       color: #a5a5a5;  
+          line-height: 30px;     
+  }
+
+.fonte-pc-desativado{
+    font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;
+      font-size: 15px;             
+       font-weight: bold;   
+       color: #a5a5a5;   
+       line-height: 35px;    
+  }
+
+
+    .fonte-pc-ativado{
+    font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;
+      font-size: 15px;             
+       font-weight: bold;   
+       color: #EF4260;    
+       line-height: 35px;   
+  }
+
+      .fonte-regra{
+    font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;
+      font-size: 12px;             
+       font-weight: bold;   
+       color: #a5a5a5;   
+
+  }
+
+
+  .ct-chart{         
+   
+    margin-top:-10px !important;
+
+  }
+
+.ct-label {
+  font-size: 20px;
+  dominant-baseline: central;
+  text-anchor: middle;
+}
+
+
+
+.texto-center{
+      text-align:center;    
+}
+
+.retangulo-ativo{
+  width: 20px;
+  height: 10px;
+  background: #EF4260;
+  display: inline-block;
+   border:0;
+  padding:0;
+  margin:0;
+}
+
+.legenda-content{    
+     border:0;
+    padding:0;
+    margin:0;
+}
+
+.retangulo-inativo{
+  width: 20px;
+  height: 10px;
+  background: #a5a5a5;
+  display: inline-block;
+       border:0;
+    padding:0;
+    margin:0;
+}
+
+
+.rect-ativoinativo{
+        display: inline-block;
+        
+}
+
+.nopadding{
+      border:0;
+    padding:0;
+    margin:0;
+}
